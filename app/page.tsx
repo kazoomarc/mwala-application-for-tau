@@ -2,102 +2,94 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div
+      className="flex justify-center "
+      // start of ai gen code
+      style={{
+        backgroundImage:
+          "repeating-linear-gradient(45deg, rgb(237, 237, 237) 0px, rgb(237, 237, 237) 2px, transparent 2px, transparent 10px)",
+      }}
+      // end of ai gen code
+    >
+      <div className=" min-h-screen p-8 pb-20 max-w-[1800px] text-slate-800 sm:p-20 font-[family-name:var(--font-bricolage-sans)] bg-slate-100">
+        <div>
+          <div>
+            <div className="flex items-center gap-2">
+              <div className="h-[14px] w-[14px] rounded-full bg-red-400"></div>
+              <span>
+                Zomba <span className="text-red-400">[ 03: 25 : 09 ]</span>
+              </span>
+            </div>
+            <h1 className="text-[64px] font-extrabold">
+              Hey It’s, <span className="text-red-400">Joel</span>
+            </h1>
+          </div>
+          <div>
+            <p className="font-medium text-[28px] max-w-[944px] mt-[34px]">
+              Hello Taugombera, Saw your post in Geek Quest looking for someone
+              to build software with. I’m very interested myself and i think i
+              quietly fit the description. Im a third year CS student at UNIMA.
+              I’m very familiar with front-end stuff (ie React, Next.js, HTML
+              and tailwind css) and I have working knowledge of django.
+            </p>
+            <div>
+              <p className="font-medium text-[28px] mt-9">
+                Here are some websites i built
+              </p>
+            </div>
+            <p className="font-medium text-[28px] mt-9 max-w-[944px]">
+              BONUS: I’m also a UI designer...and my workflow when building
+              anything starts from figma then development. I have lots of my
+              work on my twitter{" "}
+              <a
+                href="https://www.x.com/mwala_joel"
+                target="_blank"
+                className="text-slate-500 underline"
+              >
+                @mwala_joel
+              </a>
+            </p>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <p className="font-medium text-[28px] mt-[18px]">
+              Im building my portfolio here (
+              <a
+                href="https://mwala-portifolio.vercel.app/"
+                target="_blank"
+                className="text-slate-500 underline"
+              >
+                mwala-portifolio.vercel.app/
+              </a>
+              )
+            </p>
+            <p className="font-medium text-[28px] mt-[18px] max-w-[944px]">
+              Since you’re looking for someone who will be using AI efficiently.
+              I have decided to build these 3 mini projects.
+            </p>
+          </div>
+          // projects
+          <div></div>
+          // end projects
+          <div>
+            <h1 className="font-semibold text-4xl">
+              Colophon{" "}
+              <span className="text-red-400">&lt;behind this web page&gt;</span>
+            </h1>
+            <p className="font-medium text-[28px] mt-[18px] max-w-[944px]">
+              This site was designed in Figma for tablet and mobile version.
+              Font used is Bricolage Grotesque and Fira mono from google fonts.
+              The colours used are from tailwind design system with page
+              background
+            </p>
+            <p className="font-medium text-[28px] mt-[18px] max-w-[944px]">
+              It was built using Next.js and tailwind.css and deployed on
+              vercel. The source code of the page can be found here
+              (github_repo). The parts that were heavily AI assisted are
+              commented with <span>// --start of AI generated code--</span> and{" "}
+              <span>// -- end of AI generated code</span>
+            </p>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
     </div>
   );
 }
