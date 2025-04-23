@@ -9,6 +9,7 @@ const bricolage_Grotesque = Bricolage_Grotesque({
 
 const fira_mono = Fira_Mono({
   variable: "--font-fira-mono",
+  subsets: ["latin"],
   weight: "400",
 });
 
