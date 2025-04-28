@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -97,9 +98,32 @@ export default function Home() {
           </div>
 
           <div>
-            <Project />
-            <Project />
-            <Project />
+            <ul className="mt-6 pl-6">
+              <li>
+                <Link
+                  href="/projects/image-editor"
+                  className="font-medium text-xl md:text-[28px] underline"
+                >
+                  1. Image Editor &rarr;{" "}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/projects/sound-machine"
+                  className="font-medium text-xl md:text-[28px] underline"
+                >
+                  2. Sound Machine &rarr;{" "}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/projects/color-gradient"
+                  className="font-medium text-xl md:text-[28px] underline"
+                >
+                  3. Gradient Generator &rarr;{" "}
+                </Link>
+              </li>
+            </ul>
           </div>
 
           <div>
@@ -150,6 +174,13 @@ export default function Home() {
   );
 }
 
+//
+//
+//
+// the ai used this code to comeup with the app preview in the projects
+//
+//
+//
 function Project() {
   return (
     <div className="mt-[68px]">
