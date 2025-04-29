@@ -150,8 +150,8 @@ export default function Home() {
                 [slate-500 ]
               </span>{" "}
               project links:{" "}
-              <span className="bg-red-400 text-slate-500 rounded-lg px-5 text-[18px]">
-                [slate-500 ]
+              <span className="bg-slate-100 text-green-700 rounded-lg px-5 text-[18px]">
+                [green-700 ]
               </span>{" "}
               Decorative red{" "}
               <span className="bg-red-100 text-red-400 rounded-lg px-5 text-[18px]">
