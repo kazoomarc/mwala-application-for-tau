@@ -102,7 +102,7 @@ export default function Home() {
               <li>
                 <Link
                   href="/projects/image-editor"
-                  className="font-medium text-xl md:text-[28px] underline"
+                  className="font-medium text-xl md:text-[28px] underline text-green-600"
                 >
                   1. Image Editor &rarr;{" "}
                 </Link>
@@ -110,7 +110,7 @@ export default function Home() {
               <li>
                 <Link
                   href="/projects/sound-machine"
-                  className="font-medium text-xl md:text-[28px] underline"
+                  className="font-medium text-xl md:text-[28px] underline text-green-600"
                 >
                   2. Sound Machine &rarr;{" "}
                 </Link>
@@ -118,7 +118,7 @@ export default function Home() {
               <li>
                 <Link
                   href="/projects/color-gradient"
-                  className="font-medium text-xl md:text-[28px] underline"
+                  className="font-medium text-xl md:text-[28px] underline text-green-600"
                 >
                   3. Gradient Generator &rarr;{" "}
                 </Link>
@@ -139,19 +139,23 @@ export default function Home() {
               The colours used are from tailwind design system with page
               background:{" "}
               <span className="bg-slate-800 text-slate-100 rounded-lg px-5 text-[18px]">
-                [slate-100 #000000]
+                [slate-100 ]
               </span>{" "}
               text-color:{" "}
               <span className="bg-red-100 text-slate-800 rounded-lg px-5 text-[18px]">
-                [slate-800 #00000]
+                [slate-800 ]
               </span>{" "}
               links:{" "}
               <span className="bg-red-400 text-slate-500 rounded-lg px-5 text-[18px]">
-                [slate-500 #00000]
+                [slate-500 ]
+              </span>{" "}
+              project links:{" "}
+              <span className="bg-red-400 text-slate-500 rounded-lg px-5 text-[18px]">
+                [slate-500 ]
               </span>{" "}
               Decorative red{" "}
               <span className="bg-red-100 text-red-400 rounded-lg px-5 text-[18px]">
-                [red-400 #00000]
+                [red-400]
               </span>
             </p>
             <p className="font-medium text-xl md:text-[28px] mt-[18px] max-w-[944px]">
