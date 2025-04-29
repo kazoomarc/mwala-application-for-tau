@@ -161,7 +161,7 @@ export default function Home() {
             <p className="font-medium text-xl md:text-[28px] mt-[18px] max-w-[944px]">
               It was built using Next.js and tailwind.css and deployed on
               vercel. The source code of the page can be found here
-              (github_repo). The parts that were heavily AI assisted are
+              <a href="https://github.com/kazoomarc/mwala-application-for-tau"></a>(github_repo)</a>. The parts that were heavily AI assisted are
               commented with{" "}
               <span className="font-[family-name:var(--font-fira-mono)]">
                 // --start of AI generated code--
